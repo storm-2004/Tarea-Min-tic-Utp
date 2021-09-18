@@ -1,0 +1,35 @@
+.subtitulo{
+	background-color:	#2978b5;
+	margin-left: 		0px;
+	margin-top: 		214px;
+	padding: 			30px;
+	width: 				680px;
+
+	border-radius:      30px;
+	
+	color:				white;
+	text-align: 		cente;
+	font-size: 			50px; 
+}
+
+.contenido1{
+	text-align: 		left;
+	height: 			300px;
+	color: 				white;
+
+	background-color: 	#2978b5;
+	border-radius: 		30px;
+
+	
+	margin-left: 		400px;
+	margin-top: 		200px;
+
+	padding-top: 		30px;
+	padding-left: 		30px;
+	padding-right: 		30px;
+}
+
+.contenido1 h2{
+	padding-right: 	50px;
+	text-align: 	center;
+}

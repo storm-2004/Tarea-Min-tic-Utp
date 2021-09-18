@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>hola</title>
+	<link rel="stylesheet" href="css/formulario-css.css">
+	<link rel="stylesheet" type="text/css" href="css/nav-2.css">
+</head>
+<body background="fondos.jpg">
+		<!-- barra de navegacion-->
+  	<div class="barra">
+    	<ul>
+      		<li> <a href="home.html">Home</a> </li>
+      		<li> <a href="formulario.html">formulario</a> </li>
+      		<li> <a href="#">Contacto</a> </li>
+    	</ul>   
+  	</div>
+
+	<div class="formulario">
+		<form >
+			<p>Informacion Personal</p>
+			<label id="Name"><input type="text" name="Nombre" placeholder="Nombre" autofocus="autofocus">Nombre</label>
+
+			<label id="Surname"><input type="text" name="Apellido" placeholder="Apellido">Apellido</label>
+
+			<label id="Doc"><input type="number" name="N-doc" placeholder="N-doc">N-doc</label>
+
+			<label id="Gmail_1"><input type="text" name="Gmail" placeholder="Gmail" required="Dijite el gmail">Gmail</label>
+
+			<label id="Pass"><input type="password" name="Password" placeholder="password">Password</label>
+
+			<input id="circulo" type="checkbox" name="Hombre">Hombre <br>
+			<input id="circulo" type="checkbox" name="Mujer">Mujer <br>
+			<input id="circulo" type="checkbox" name="Indefinido">Indefinido <br>
+
+			<button type="submit" onclick="hizoclick()">Enviar</button>
+		</form>
+	</div>
+
+	<script type="text/javascript">
+		function hizoclick() {
+			alert("Su Informacion ha sido enviada")
+		}
+
+	</script>
+
+</body>
+</html>

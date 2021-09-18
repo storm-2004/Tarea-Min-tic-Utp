@@ -1,0 +1,91 @@
+.formulario{
+	background-color: #2978b5;
+	display: flex;
+	width: 450px;
+	height: 600px;
+	flex-flow: 		row wrap;
+	border-radius: 20px;
+	box-shadow: 0px 0px 9px 3px #7D37FE;
+	align-content: center;
+	align-items: center;
+	margin-left: 30%;
+	margin-top: 10%;
+
+}
+
+#Name input{
+	margin-top: 10px;
+	width: 300px;
+	height: 60px;
+	margin-left: 15%;
+	border-radius: 10px;
+
+	outline: none;
+	border: none;
+	border-bottom: 2px solid black;
+	
+
+}
+
+#Surname input{
+	margin-top: 10px;
+	width: 300px;
+	height: 60px;
+	margin-left: 15%;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+#Doc input{
+	margin-top: 10px;
+	width: 300px;
+	height: 60px;
+	margin-left: 15%;
+	border-radius: 10px;
+
+	outline: none;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+#Gmail_1 input{
+	margin-top: 10px;
+	width: 300px;
+	height: 60px;
+	margin-left: 15%;
+	border-radius: 10px;
+
+	outline: none;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+#Pass input{
+	margin-top: 10px;
+	width: 300px;
+	height: 60px;
+	margin-left: 15%;
+	border-radius: 10px;
+
+	outline: none;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+button{
+	margin-top: 10px;
+	width: 250px;
+	height: 50px;
+	margin-left: 20%;
+	border-radius: 10px;
+}
+
+.formulario p{
+	margin-left: 100px;
+	font-size: 30px;
+}
+#circulo{
+	margin-left: 80px;
+}

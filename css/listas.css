@@ -1,0 +1,28 @@
+.listas{
+	background-color: #2978b5;
+	display: flex;
+}
+
+.subtitulo-2{
+	font-size: 20px;
+	margin-top: 40px;
+	text-align: left;
+	display: flex;
+	background-color: #2978b5;
+	color: white;
+}
+
+.desordenada{
+	width: 20%;
+	margin-left: 150px;
+	margin-right: 50px;
+	margin-top: 10px;
+
+}
+
+.ordenada{
+	width: 20%;
+	margin-left: 400px;
+	margin-right: 50px;
+	margin-top: 10px;
+}

@@ -1,0 +1,20 @@
+.padre-tabla{ 
+	background-color: #2978b5; 
+	text-align: center;
+	margin-top: 10px; 
+	margin-left: 10%;
+ 	margin-right: 10%;
+ 	color: #E4DFDF;
+ 	border-radius: 20px; 
+ }
+
+.padre-tabla p{
+	font-size: 30px;
+}
+
+.tabla{
+	
+	width: 100%;
+
+
+}
